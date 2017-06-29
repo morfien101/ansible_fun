@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-include creds.php
+include creds.php;
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
